@@ -17,7 +17,7 @@ namespace CardSorting
         {
             foreach (Card card in cards)
             {
-                Console.WriteLine(card.Name);
+                Console.WriteLine(card);
             }
         }
 

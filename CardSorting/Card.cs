@@ -12,6 +12,11 @@ namespace Cards
         public Suits Suit { get; private set; }
         public string Name { get { return $"{Value} {Suit}"; } }
 
+        public override string ToString()
+        {
+            return Name;
+        }
+
         public Card(Values value, Suits suit)
         {
             this.Value = value;
